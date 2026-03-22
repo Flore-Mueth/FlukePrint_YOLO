@@ -1,7 +1,0 @@
-path: /home/floreM/FlukePrint_YOLO/coco_converted
-
-train: images/train
-val: images/train
-
-names:
-  0: flukeprints
