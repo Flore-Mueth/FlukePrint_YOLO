@@ -1,0 +1,35 @@
+# fluke_train2.yaml
+
+model: yolo26n-seg.pt  
+data: ./17_03_dataset/data.yaml
+epochs: 100
+imgsz: 432
+batch: 8
+workers: 4
+
+# --- AUGMENTATIONS ---
+
+# 1. Colors (HSV) - Desactivated as grayscale thermal images
+hsv_h: 0.0      
+hsv_s: 0.0      
+hsv_v: 0.2      # small brightness variation (20%) 
+
+# 2. Geometric - CRUCIAL 
+degrees: 360.0  # Complete ratation allowed 
+translate: 0.1  # small translation 
+scale: 0.9      # Size variation (-90% to +10%)
+shear: 0.0      
+perspective: 0.0 
+
+# 3. Flip
+flipud: 0.5     
+fliplr: 0.5     
+
+# 4. Mosaic, MixUp, CopyPaste
+mosaic: 0.4 # less than default setting because to many false positives in training 1     
+mixup: 0.0      
+copy_paste: 0.5 
+
+# 5. others
+erasing: 0.0    
+crop_fraction: 1.0 # No cropping
