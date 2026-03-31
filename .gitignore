@@ -1,4 +1,4 @@
-runs/segment/runs_fluke/exp_fluke_v1/weights
-runs/segment/train2/weights
+first_test/runs/segment/runs_fluke/exp_fluke_v1/weights
+first_test/runs/segment/train2/weights
 
 *.pt
