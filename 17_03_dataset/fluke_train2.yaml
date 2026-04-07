@@ -15,7 +15,7 @@ hsv_s: 0.0
 hsv_v: 0.2      # small brightness variation (20%) 
 
 # 2. Geometric - CRUCIAL 
-degrees: 360.0  # Complete ratation allowed 
+degrees: 360.0  # Complete rotation allowed 
 translate: 0.1  # small translation 
 scale: 0.9      # Size variation (-90% to +10%)
 shear: 0.0      
