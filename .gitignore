@@ -1,6 +1,7 @@
 runs/segment/runs_fluke/exp_fluke_v1/weights
 runs/segment/train2/weights
 runs/segment/grid_search_runs
-best_model/17_03_dataset
+best_model/17_03_dataset_grayscale
+best_model/runs
 
 *.pt
