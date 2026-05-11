@@ -3,5 +3,8 @@ runs/segment/train2/weights
 runs/segment/grid_search_runs
 best_model/17_03_dataset_grayscale
 best_model/runs
+behav_model/05_10_behav_dataset
+behav_model/dataset_M0
+behav_model/runs
 
 *.pt
