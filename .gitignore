@@ -6,5 +6,6 @@ best_model/runs
 behav_model/05_10_behav_dataset
 behav_model/dataset_M0
 behav_model/runs
+behav_model/dataset_M1
 
 *.pt
