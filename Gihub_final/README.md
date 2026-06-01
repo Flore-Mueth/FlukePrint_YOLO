@@ -1,12 +1,3 @@
-# FlukePrint_YOLO
-Pixel Segmentation using YOLO for Fluke Print detection in whale monitoring
-
-Exploratory phase - testing yolov8n-seg differents parameters settings 
-Final Model - yolov8n-seg vs yolo26n-seg AND RayTune final fine tuned param
-Behav results trainonig ...
-
-
-
 **Pixel Segmentation using YOLO for Flukeprint Detection in Whale Monitoring**
 
 ## Project Overview
