@@ -12,9 +12,9 @@ Behav results trainonig ...
 ## Project Overview
 This semester project, conducted at the **ECEO Laboratory**, focuses on automating the detection of whale "flukeprints" using thermal drone imagery. 
 
-A flukeprint is the thermal signature left on the sea surface by the movement of colder water caused by a whale's body and tail strikes. The goal is to train a YOLO-based model to identify and segment these signatures within a large labeled dataset, enabling automated monitoring of whale activity.
+A flukeprint is the thermal signature left on the sea surface by the movement of colder water caused by a whale's body and tail strikes. The goal is to train a YOLO-based model to identify and segment these signatures within a labeled dataset, enabling automated monitoring of whale activity.
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 .
