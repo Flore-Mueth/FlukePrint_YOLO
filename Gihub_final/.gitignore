@@ -1,0 +1,5 @@
+F_Binary_Dataset
+runs/segment/test_yolo26n_predict
+runs/segment/best_baseline_test_predict
+
+*.pt
