@@ -9,9 +9,11 @@ A flukeprint is the thermal signature left on the sea surface by the movement of
 
 ```text
 .
-├── F_Binary_Dataset/       # Dataset containing labeled thermal images
+├── F_Binary_Dataset/       # Binary dataset containing labeled thermal images
+├── Behavioral_Dataset      # Behavioral and temporal class distinctions labeled thermal images
 ├── runs/                   # Training outputs and logs
 ├── Exploratory_Phase.ipynb # Notebook for testing YOLOv8n-seg parameters
 ├── Final_Model.ipynb       # Comparative analysis (YOLOv8n vs YOLOv26n) & RayTune fine-tuning
+├── Behavior_Training       # Main results: fine-tuned binary model on the behavioral dataset through a phased training strategy (M0-M2).
 ├── *.pt                    # Pre-trained and custom model weights (yolov8n-seg.pt, yolo26n.pt, etc.)
 └── README.md
