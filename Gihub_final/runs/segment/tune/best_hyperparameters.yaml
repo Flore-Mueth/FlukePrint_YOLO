@@ -1,0 +1,30 @@
+# 50/50 iterations complete ✅ (5791.83s)
+# Results saved to /home/floreM/FlukePrint_YOLO/Gihub_final/runs/segment/tune
+# Best fitness=1.16937 observed at iteration 46
+# Best fitness metrics are {'metrics/precision(B)': 0.80279, 'metrics/recall(B)': 0.74123, 'metrics/mAP50(B)': 0.81505, 'metrics/mAP50-95(B)': 0.61331, 'metrics/precision(M)': 0.80279, 'metrics/recall(M)': 0.74123, 'metrics/mAP50(M)': 0.80544, 'metrics/mAP50-95(M)': 0.55606, 'val/box_loss': 0.89387, 'val/seg_loss': 1.59752, 'val/cls_loss': 1.25581, 'val/dfl_loss': 1.94681, 'val/sem_loss': 0.0, 'fitness': 1.16937}
+# Best fitness model is /home/floreM/FlukePrint_YOLO/Gihub_final/runs/segment/train5
+lr0: 0.00064
+lrf: 0.01175
+momentum: 0.98
+weight_decay: 0.00024
+warmup_epochs: 2.28218
+warmup_momentum: 0.90975
+box: 7.40493
+cls: 0.76144
+dfl: 2.84763
+hsv_h: 0.00441
+hsv_s: 0.74073
+hsv_v: 0.20363
+degrees: 0.0076
+translate: 0.12915
+scale: 0.24399
+shear: 0.00073
+perspective: 0.00042
+flipud: 0.0003
+fliplr: 0.39206
+bgr: 0.00235
+mosaic: 0.95975
+mixup: 0.00077
+cutmix: 0.00452
+copy_paste: 0.00441
+close_mosaic: 10
